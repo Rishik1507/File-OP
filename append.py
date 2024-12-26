@@ -1,0 +1,10 @@
+file = open("sample.txt","r")
+print(file.read(10))
+file.close()
+
+f=open("sample.txt","a")
+f.write("I love coding")
+f.close()
+f1=open("sample.txt","r")
+print(f1.read())
+f1.close()
